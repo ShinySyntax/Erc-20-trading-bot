@@ -1,0 +1,22 @@
+{
+  "name": "universal-router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "fix:format": "prettier --config .prettierrc.cjs \"src/**/*.{ts,tsx,js,jsx,json}\" --write",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@uniswap/permit2-sdk": "^1.2.0",
+    "@uniswap/sdk-core": "^4.0.7",
+    "@uniswap/smart-order-router": "^3.16.23",
+    "dotenv": "^16.1.4",
+    "ethers": "^5.6.6",
+    "prettier": "^2.8.8"
+  }
+}
